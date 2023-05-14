@@ -8,8 +8,8 @@
 ##
 ## Package stage
 ##
-#FROM openjdk:17-jdk-slim
-#COPY --from=build /target/CareProductsAPI-0.0.1-SNAPSHOT.jar
+#FROM o
+#COPY --penjdk:17-jdk-slimfrom=build /target/CareProductsAPI-0.0.1-SNAPSHOT.jar
 ##COPY --from=build /target/demo-0.0.1-SNAPSHOT.jar demo.jar
 ## ENV PORT=8080
 #EXPOSE 8080
